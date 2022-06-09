@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 // Basicamente esse script serve pra tocar entre as duas UI Portrait e Landscape, de acordo
@@ -10,6 +11,8 @@ public class UiManager : MonoBehaviour
     
     public GameObject UiPortrait;
     public GameObject UiLandscape;
+    
+    public TMP_Text timerUiText;
     
     public PlayerController playerControllerScript;
     
@@ -26,6 +29,7 @@ public class UiManager : MonoBehaviour
             UiPortrait.SetActive(true);
             UiLandscape.SetActive(false);
             playerControllerScript.joystick = UiPortrait.transform.GetChild(0).GetComponent<Joystick>();
+            timerUiText.fontSize = 60; //aumenta o timer
         }
         else
         {

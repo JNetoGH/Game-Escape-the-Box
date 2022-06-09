@@ -10959,8 +10959,10 @@ struct UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F  : public MonoBehavio
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___UiPortrait_4;
 	// UnityEngine.GameObject UiManager::UiLandscape
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___UiLandscape_5;
+	// TMPro.TMP_Text UiManager::timerUiText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timerUiText_6;
 	// PlayerController UiManager::playerControllerScript
-	PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* ___playerControllerScript_6;
+	PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* ___playerControllerScript_7;
 };
 
 // TMPro.Examples.VertexColorCycler
@@ -13048,9 +13050,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3547[5] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3548[10] = 
 {
 	static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ____rgb_4)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___myTimer_5)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___movementSpeed_6)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___joystick_7)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ____isJoystickHeld_8)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___rotationSpeed_9)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___leftArrowButton_10)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ____isLeftButtonHeld_11)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___rightArrowButton_12)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ____isRightButtonHeld_13)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3549[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3549[4] = 
 {
-	static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___UiPortrait_4)),static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___UiLandscape_5)),static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___playerControllerScript_6)),};
+	static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___UiPortrait_4)),static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___UiLandscape_5)),static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___timerUiText_6)),static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___playerControllerScript_7)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3550[3] = 
 {
 	static_cast<int32_t>(offsetof(VictoryController_t979252A0C74E75724716F5FAF3E0A1C029F740B8_StaticFields, ___win_4)),static_cast<int32_t>(offsetof(VictoryController_t979252A0C74E75724716F5FAF3E0A1C029F740B8, ___myTimer_5)),static_cast<int32_t>(offsetof(VictoryController_t979252A0C74E75724716F5FAF3E0A1C029F740B8, ___winUI_6)),};

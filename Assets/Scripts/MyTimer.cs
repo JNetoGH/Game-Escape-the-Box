@@ -1,6 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class MyTimer : MonoBehaviour
 {

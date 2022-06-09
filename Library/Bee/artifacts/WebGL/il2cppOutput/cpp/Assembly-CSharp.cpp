@@ -4404,8 +4404,10 @@ struct UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F  : public MonoBehavio
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___UiPortrait_4;
 	// UnityEngine.GameObject UiManager::UiLandscape
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___UiLandscape_5;
+	// TMPro.TMP_Text UiManager::timerUiText
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timerUiText_6;
 	// PlayerController UiManager::playerControllerScript
-	PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* ___playerControllerScript_6;
+	PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* ___playerControllerScript_7;
 };
 
 // TMPro.Examples.VertexColorCycler
@@ -6455,6 +6457,8 @@ inline Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A* Component_GetComponen
 {
 	return ((  Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
+// System.Void TMPro.TMP_Text::set_fontSize(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_fontSize_m1C3A3BA2BC88E5E1D89375FD35A0AA91E75D3AAD (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* __this, float ___value0, const RuntimeMethod* method) ;
 // System.String UnityEngine.Component::get_tag()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Component_get_tag_m7561A81116CAB82B8A459E934662BFC2039FB7EF (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Boolean System.String::Equals(System.String)
@@ -6646,8 +6650,6 @@ inline TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* GameObject_AddComp
 }
 // System.Void TMPro.TMP_Text::set_font(TMPro.TMP_FontAsset)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_font_mC55E4A8C1C09595031384B35F2C2FB2FC3479E83 (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* __this, TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___value0, const RuntimeMethod* method) ;
-// System.Void TMPro.TMP_Text::set_fontSize(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_fontSize_m1C3A3BA2BC88E5E1D89375FD35A0AA91E75D3AAD (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* __this, float ___value0, const RuntimeMethod* method) ;
 // System.Void TMPro.TMP_Text::set_alignment(TMPro.TextAlignmentOptions)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TMP_Text_set_alignment_mE5216A28797987CC19927ED3CB8DFAC438C6B95A (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* __this, int32_t ___value0, const RuntimeMethod* method) ;
 // System.Void TMPro.TMP_Text::set_extraPadding(System.Boolean)
@@ -9264,7 +9266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UiManager_Start_m2B96634CBB38D7249C7A0DD
 		// if (isPortrait)
 		if (!((((int32_t)L_2) > ((int32_t)L_3))? 1 : 0))
 		{
-			goto IL_0060;
+			goto IL_0070;
 		}
 	}
 	{
@@ -9275,7 +9277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UiManager_Start_m2B96634CBB38D7249C7A0DD
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___UiLandscape_5;
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
 		// playerControllerScript.joystick = UiPortrait.transform.GetChild(0).GetComponent<Joystick>();
-		PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* L_6 = __this->___playerControllerScript_6;
+		PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* L_6 = __this->___playerControllerScript_7;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___UiPortrait_4;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
 		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
@@ -9285,28 +9287,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UiManager_Start_m2B96634CBB38D7249C7A0DD
 		L_10 = Component_GetComponent_TisJoystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A_m0999AAD0E93516118520AC0831B56BAB595281D6(L_9, Component_GetComponent_TisJoystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A_m0999AAD0E93516118520AC0831B56BAB595281D6_RuntimeMethod_var);
 		L_6->___joystick_7 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___joystick_7), (void*)L_10);
+		// timerUiText.fontSize = 60; //aumenta o timer
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_11 = __this->___timerUiText_6;
+		TMP_Text_set_fontSize_m1C3A3BA2BC88E5E1D89375FD35A0AA91E75D3AAD(L_11, (60.0f), NULL);
 		return;
 	}
 
-IL_0060:
+IL_0070:
 	{
 		// UiLandscape.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___UiLandscape_5;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___UiLandscape_5;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
 		// UiPortrait.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___UiPortrait_4;
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___UiPortrait_4;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
 		// playerControllerScript.joystick = UiLandscape.transform.GetChild(0).GetComponent<Joystick>();
-		PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* L_13 = __this->___playerControllerScript_6;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___UiLandscape_5;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
-		L_15 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_14, NULL);
+		PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* L_14 = __this->___playerControllerScript_7;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___UiLandscape_5;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
-		L_16 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_15, 0, NULL);
-		Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A* L_17;
-		L_17 = Component_GetComponent_TisJoystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A_m0999AAD0E93516118520AC0831B56BAB595281D6(L_16, Component_GetComponent_TisJoystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A_m0999AAD0E93516118520AC0831B56BAB595281D6_RuntimeMethod_var);
-		L_13->___joystick_7 = L_17;
-		Il2CppCodeGenWriteBarrier((void**)(&L_13->___joystick_7), (void*)L_17);
+		L_16 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_15, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
+		L_17 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_16, 0, NULL);
+		Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A* L_18;
+		L_18 = Component_GetComponent_TisJoystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A_m0999AAD0E93516118520AC0831B56BAB595281D6(L_17, Component_GetComponent_TisJoystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A_m0999AAD0E93516118520AC0831B56BAB595281D6_RuntimeMethod_var);
+		L_14->___joystick_7 = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&L_14->___joystick_7), (void*)L_18);
 		// }
 		return;
 	}
