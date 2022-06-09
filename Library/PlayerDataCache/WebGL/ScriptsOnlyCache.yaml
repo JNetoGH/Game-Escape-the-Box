@@ -3,8 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BallCreator
     - FixedJoystick
+    - MyTimer
     - PlayerController
     - UiManager
+    - VictoryController
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineComposer
@@ -146,6 +148,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: BallCreator
     methodName: SetProhibitionOfBallInstantiation
+  - assembly: Assembly-CSharp
+    fullTypeName: VictoryController
+    methodName: resetGame
   sceneClasses:
     Assets/Scenes/MainScene.unity:
     - Class: 1
@@ -195,37 +200,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2756}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 2834}
     - Class: 114
-      Script: {instanceID: 3214}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 3656}
+      Script: {instanceID: 3216}
     - Class: 114
-      Script: {instanceID: 3790}
+      Script: {instanceID: 3658}
+    - Class: 114
+      Script: {instanceID: 3792}
     - Class: 114
       Script: {instanceID: 4188}
     - Class: 114
       Script: {instanceID: 4302}
     - Class: 114
-      Script: {instanceID: 4586}
+      Script: {instanceID: 4502}
     - Class: 114
-      Script: {instanceID: 4984}
+      Script: {instanceID: 4588}
     - Class: 114
-      Script: {instanceID: 5056}
+      Script: {instanceID: 4986}
     - Class: 114
-      Script: {instanceID: 5400}
+      Script: {instanceID: 5058}
     - Class: 114
-      Script: {instanceID: 5986}
+      Script: {instanceID: 5402}
     - Class: 114
-      Script: {instanceID: 6024}
+      Script: {instanceID: 5988}
     - Class: 114
-      Script: {instanceID: 6204}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6552}
+      Script: {instanceID: 6206}
     - Class: 114
-      Script: {instanceID: 7338}
+      Script: {instanceID: 6554}
     - Class: 114
-      Script: {instanceID: 39266}
+      Script: {instanceID: 7340}
+    - Class: 114
+      Script: {instanceID: 7794}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -473,6 +482,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: ff3445cc486287be6803cec6d4e92b8b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UiManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -865,6 +880,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: feeeccaa0815f0be8e5e2f25282a317c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MyTimer
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -967,7 +988,7 @@ ScriptsOnlyBuild:
     className: TMP_TextEventCheck
   - hash:
       serializedVersion: 2
-      Hash: 9bb6b7c8cbfe1eaa50ae27c9c13cf7a1
+      Hash: 91805499db5a2d6aa59777b761305b3e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -1447,6 +1468,12 @@ ScriptsOnlyBuild:
     className: CinemachineStoryboard
   - hash:
       serializedVersion: 2
+      Hash: e6266b637b7d950468392f52cd42590a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VictoryController
+  - hash:
+      serializedVersion: 2
       Hash: 23d669c8bf2983ca4a3df160658318a6
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1571,14 +1598,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: ff3445cc486287be6803cec6d4e92b8b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UiManager
   platform: 20
   scenePathNames:
   - Assets/Scenes/MainScene.unity
   playerPath: C:/Users/Mendes/Documents/DEV/Unity/Builds/Collisions Test Build (WEB
-    v.2.2)
+    v.2.4)

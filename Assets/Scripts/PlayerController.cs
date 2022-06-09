@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +14,24 @@ public class PlayerController : MonoBehaviour
         _rgb = GetComponent<Rigidbody>();
     }
     
+    // STARTA O TIMER
+    public MyTimer myTimer;
+    private void Update()
+    {
+        // faz a checagem pra soltar soh se ja n tiver contando pra poupar processamento
+        // e checa se o player n ganhou para n estartar o contador que ja foi parado quando ganha
+        if (!myTimer.get_IsCounting() && !VictoryController.win)
+        {
+            // solta o contador quando algo tecla, joystick, botao ou toque na tela ocorre 
+            if (Input.GetButtonDown("Fire1") || Input.GetAxis("Horizontal") != 0 ||
+                Input.GetAxis("Vertical") != 0 || Input.GetAxis("Rotate Player") != 0 || 
+                _isJoystickHeld || _isLeftButtonHeld || _isRightButtonHeld)
+            {
+                myTimer.StartCounting(); 
+            }            
+        }
+    }
+
     private void FixedUpdate()
     {
         MoveWithRigidBody();
