@@ -2550,7 +2550,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.46722454, y: 1}
+    m_SensorSize: {x: 2.3295238, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3658,8 +3658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 981e063da6962f343b66fa66d6ab6cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UiPortrait: {fileID: 1596336069}
-  UiLandscape: {fileID: 1459000878}
+  uiPortrait: {fileID: 1596336069}
+  uiLandscape: {fileID: 1459000878}
   timerUiText: {fileID: 1538002162}
   playerControllerScript: {fileID: 406293669}
 --- !u!1 &1729267602

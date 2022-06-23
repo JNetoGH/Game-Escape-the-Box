@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{725545b1-2d4d-40cc-29d8-cc5b365e29c8}</ProjectGuid>
+    <ProjectGuid>{cfc2c344-a507-03dd-76a3-cc3031e957d4}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -347,13 +347,13 @@
      <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Editors\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="clipper_library">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\PackageCache\com.unity.cinemachine@2.8.6\Runtime\ThirdParty\clipper_library.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\PackageCache\com.unity.cinemachine@2.8.6\Runtime\ThirdParty\clipper_library.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Editors\2021.3.4f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -722,76 +722,76 @@
      <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Editors\2021.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Cinemachine">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
      <Reference Include="com.unity.cinemachine.editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Environments">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Udemy Unity Course\Collider Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>C:\Users\Mendes\Documents\DEV\Unity\Projects\Escaping The Box\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
