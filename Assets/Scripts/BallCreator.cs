@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,8 +6,7 @@ public class BallCreator : MonoBehaviour
 {
     public GameObject ball;
     public GameObject player;
-
-
+    
     private Button b;
     // fica true quando for um clique numa zona de boatao da UI mobile
     // dai nao instancia bolas quando se aperta um botao
@@ -23,9 +23,13 @@ public class BallCreator : MonoBehaviour
     {
         if (!_isClickInProhibitedZoneForInstantiation)
         {
-            if (Input.GetButtonDown("Fire1")) 
+            if (Input.GetButtonDown("Fire1"))
+            {
                 Instantiate(ball);
-            ball.transform.position = new Vector3(player.transform.position.x, 10, player.transform.position.z);   
+                Debug.Log("criou bola");
+            }
+            Vector3 position = player.transform.position;
+            ball.transform.position = new Vector3(position.x, 10, position.z);   
         }
     }
 }

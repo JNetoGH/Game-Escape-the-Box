@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 // Basicamente esse script serve pra tocar entre as duas UI Portrait e Landscape, de acordo
 // com a largura e altura da tela, ela tb seta qual joystick das duas UI sera usada no PlayerController,
@@ -9,33 +10,34 @@ using UnityEngine;
 public class UiManager : MonoBehaviour
 {
     
-    public GameObject UiPortrait;
-    public GameObject UiLandscape;
-    
+    public GameObject uiPortrait;
+    public GameObject uiLandscape;
     public TMP_Text timerUiText;
-    
     public PlayerController playerControllerScript;
+    
+    
+    //private void initRequiredStuff
+    
     
     // Start is called before the first frame update
     void Start()
     {
-        UiLandscape.SetActive(false);
-        UiPortrait.SetActive(false);
+        uiLandscape.SetActive(false);
+        uiPortrait.SetActive(false);
             
-        
         bool isPortrait = Screen.height > Screen.width;
         if (isPortrait)
         {
-            UiPortrait.SetActive(true);
-            UiLandscape.SetActive(false);
-            playerControllerScript.joystick = UiPortrait.transform.GetChild(0).GetComponent<Joystick>();
+            uiPortrait.SetActive(true);
+            uiLandscape.SetActive(false);
+            playerControllerScript.joystick = uiPortrait.transform.GetChild(0).GetComponent<Joystick>();
             timerUiText.fontSize = 60; //aumenta o timer
         }
         else
         {
-            UiLandscape.SetActive(true);
-            UiPortrait.SetActive(false);
-            playerControllerScript.joystick = UiLandscape.transform.GetChild(0).GetComponent<Joystick>();
+            uiLandscape.SetActive(true);
+            uiPortrait.SetActive(false);
+            playerControllerScript.joystick = uiLandscape.transform.GetChild(0).GetComponent<Joystick>();
         }
     }
 
